@@ -1,11 +1,5 @@
 from flask import Flask, render_template, request, send_from_directory,redirect,url_for
 from matplotlib import ticker
-import utils
-import os
-import pandas as pd 
-import numpy as np
-import matplotlib.pyplot as plt
-import yahoo_fin.stock_info as si
 import yfinance as yf
 from package import fetch
 
